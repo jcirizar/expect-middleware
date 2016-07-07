@@ -1,0 +1,21 @@
+{
+  "name": "expect-middleware",
+  "version": "0.0.1",
+  "description": "Express JS Middleware to expect values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "middleware",
+    "express",
+    "expect",
+    "assert"
+  ],
+  "author": "Juan C. Irizar",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "type-of": "^2.0.1"
+  }
+}
