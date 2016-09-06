@@ -2,9 +2,12 @@
   "name": "expect-middleware",
   "version": "0.0.1",
   "description": "Express JS Middleware to expect values",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc index.ts",
+    "watch": "tsc -p src -w",
+    "server": "nodemon test/server.js"
   },
   "keywords": [
     "middleware",
@@ -17,5 +20,11 @@
   "dependencies": {
     "lodash": "^4.13.1",
     "type-of": "^2.0.1"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemon": "^1.10.2",
+    "typescript": "^1.8.10"
   }
 }
