@@ -19,7 +19,7 @@ declare module 'expect' {
         toHaveOneOf(args: string[]): Middleware;
         toExist(): Middleware;
         toBeOfType(args: string): Middleware;
-        toAssert(functioToTest: Assertion): Middleware;
+        toAssert(functionToTest: Assertion): Middleware;
     }
 
     function expect(target: string): Expectation;
